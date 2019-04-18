@@ -19,8 +19,7 @@ export default class EightBall extends React.Component {
   render () {
     return (
       <div>
-        <h3>8ball has spoken!</h3>
-        <p>{'Response from 8 ball: ' + this.state.answer}</p>
+        <p><strong>{'8ball has spoken! '}</strong> {this.state.answer}</p>
       </div>
     )
   }
