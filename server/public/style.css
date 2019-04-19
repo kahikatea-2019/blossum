@@ -30,18 +30,18 @@ body {
   color: #af111c;
   position: absolute;
   width: 100%;
-  bottom: 5vh;
+  bottom: 2vh;
   text-align: center;
 
 
 }
 
 .words {
-  color: rgb(241, 90, 183);
-  position: absolute;
-  width: 100%;
-  bottom: 5vh;
-  text-align: center;
+  color: black;
+ 
+ 
+  
+  text-align: left;
 
 }
 

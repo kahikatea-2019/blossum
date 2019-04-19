@@ -30,11 +30,14 @@ class App extends React.Component {
         >
                .....words<br>
                </br>
-               ......words
+               ......words <br>
+               </br>
+               .........words
+
         </div>
        
         <p className='answer'>
-        {this.state.isHovering && <EightBall />} </p>
+        {this.state.isHovering && <EightBall />}</p>
       </div>
     )
   }
