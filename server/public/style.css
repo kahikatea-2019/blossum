@@ -1,0 +1,19 @@
+
+
+
+body {  
+background: rgb(10, 10, 10) url(./Crystal-ball.jpg) no-repeat 0 0 ;
+background-size: 75%;
+
+
+-webkit-animation: slide 0.08s linear infinite;
+}
+
+@-webkit-keyframes slide {
+  from {background-position: 0 0; }
+  to {background-position: -1.5px 0;}
+
+}
+
+
+
