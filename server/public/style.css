@@ -1,19 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Princess+Sofia');
 
+html {
+  color: white;
+  text-align: center;
+  font-family: 'Princess Sofia', cursive;
+  font-size: 42px;
+  font-weight:700;
+ 
+ 
+  
+  
 
+}
 
 body {  
-background: rgb(10, 10, 10) url(./Crystal-ball.jpg) no-repeat 0 0 ;
-background-size: 75%;
+  background: rgb(10, 10, 10) url(./Crystal-ball.jpg) no-repeat 0 0 ;
+  background-size: cover;
+  -webkit-animation: slide 0.085s linear infinite;
 
-
--webkit-animation: slide 0.08s linear infinite;
 }
 
 @-webkit-keyframes slide {
   from {background-position: 0 0; }
-  to {background-position: -1.5px 0;}
+  to {background-position: -1.6px 0;}
 
 }
 
+.answer {
+  color: #af111c;
+  position: absolute;
+  width: 100%;
+  bottom: 5vh;
+  text-align: center;
+
+
+}
+
+.words {
+  color: rgb(241, 90, 183);
+  position: absolute;
+  width: 100%;
+  bottom: 5vh;
+  text-align: center;
+
+}
 
 

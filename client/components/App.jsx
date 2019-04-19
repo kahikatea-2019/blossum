@@ -23,13 +23,18 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <div
+      
+        <div className='words'
           onMouseEnter={this.handleMouseHover}
           onMouseLeave={this.handleMouseHover}
         >
-          Ask a Question...
+               .....words<br>
+               </br>
+               ......words
         </div>
-        {this.state.isHovering && <EightBall />}
+       
+        <p className='answer'>
+        {this.state.isHovering && <EightBall />} </p>
       </div>
     )
   }
